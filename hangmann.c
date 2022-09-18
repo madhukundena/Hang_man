@@ -35,7 +35,7 @@ switch(key1){
     case 1: printf("\n\t 1)Single-Player \n\t 2)Multi-player \n\t");
             printf(" ENTER here- ");
             scanf("%d",&key2);
-             
+             s
             switch(key2){
             case 1: singleplayer();
             break;
@@ -67,19 +67,19 @@ switch(key1){
                 printf("\t\t If the entered letter is wrong..the you lose a point. \n");
                 printf("\t\t You will have 6 points,and when all lost..the man will be hung \n");
                 printf("\t\t *REMEMBER THE WORDS ARE CASE-SENSITIVE* \n");
-                  getch(); 
+                  getch();  s
                 break;
 
 
 
-     case 3: printf(" this was developed by Madhu Kundena....");
-        getch(); 
+     case 3: printf(" this was developed by Madhu Kundena....\n");
+        getch(); s
         break;
 
 
 
         case 4 : 
-	printf("Thank you for Playing the Game");
+	printf("Thank you for Playing the Game\n"); s
 	exit(1);
         getch(); 
         break;
